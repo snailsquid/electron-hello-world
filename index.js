@@ -32,6 +32,9 @@ function createWindow() {
     y: y,
     width: width,
     height: height,
+    webPreferences: {
+        nodeIntegration: true,
+    },
   });
 
   mainWindow.loadURL(`file://${__dirname}/src/index.html`);
