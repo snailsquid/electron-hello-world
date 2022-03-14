@@ -8,6 +8,7 @@ function render(time) {
   ++count;
 
   countElem.textContent = count;
+  //counting
   timeElem.textContent = time.toFixed(2);
 
   requestAnimationFrame(render);
