@@ -1,19 +1,20 @@
 # Electron Hello World
+## Introduction
 
 Getting Electron to a shipable app is not completely straight forward. Here's a working
 repo and some terse instructions
 
 Note: The steps below are what I did to create this repo. [See below if cloning this repo](#cloning-this-repo)
-
+## Steps
 1.  Install [node.js](https://nodejs.org)
 2.  Open a terminal or "node command prompt"
 3.  Make a folder like `myproject` (`mkdir myproject`)
 4.  cd into the folder `cd myproject`
 5.  Type `npm init` and except the defaults
 6.  Type `npm install --save-dev electron`
-6.  Type `npm install --save-dev electron-builder`
-6.  Type `npm install --save-dev cross-env`
-7.  Make a file called `index.js`. Inside put this
+7.  Type `npm install --save-dev electron-builder`
+8.  Type `npm install --save-dev cross-env`
+9.  Make a file called `index.js`. Inside put this
 
         "use strict";
 
